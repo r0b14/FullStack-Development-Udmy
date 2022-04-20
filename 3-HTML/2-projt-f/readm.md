@@ -3,6 +3,8 @@ Como até esse momento só foi apresentado os conceitos de HTML, não vamos pode
 
 ## Apresentando os conceitos
 
+### Corpo principal
+
 Como no caso desse site não podemos usar CSS, vamos ter que usar tabelas para pode estruturar tudo o que precisamos da forma mais notável possível. 
 
 Tabelas são estruturas da seguinte forma
@@ -14,27 +16,9 @@ Tabelas são estruturas da seguinte forma
 Podemos adicionar alguns atributos que nos permitem melhorar a visualização das tabelas, como *border* (bordas), *width* (largura) e *align* (alinhamento).
 
 ```html
-ˋˋˋ
-<!DOCTYPE html>
-<html lang="en">
-
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>IENJ</title>
-   </head>
-
-   <body>
-
       <table border="1" width="600" align="center">
-         <tr>
-            <td>Logo</td>
-            <td>Menu</td>
-         </tr>
-      </table>
-
-   </body>
-</html>
-ˋˋˋ
 ```
+
+### Adicionando imagem ao background
+
+Nesse contexto, vamos adicionar a imagem de background.
