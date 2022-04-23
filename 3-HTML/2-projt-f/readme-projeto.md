@@ -21,4 +21,15 @@ Podemos adicionar alguns atributos que nos permitem melhorar a visualização da
 
 ### Adicionando imagem ao background
 
-Nesse contexto, vamos adicionar a imagem de background.
+Nesse contexto, vamos adicionar a imagem de background. Como vamos fazer um arranjo simples e usando HTML puro, vamos ter que fazer dentro da tag `<body>`
+``` html
+<body background="/3-HTML/2-projt-f/arquivos-projetos-unes/arquivos-necessarios-projetos-unes/fundo.png ">
+```
+*O que está entre " " é o caminho do arquivo*
+
+Para adicionarmos uma imagem dentro da tabela simples, obviamente usando só HTML, vai ser preciso usar a tag de `<img>` dentro da tag da tabela `<td>`
+``` html
+<td height="89" > <img src="/3-HTML/2-projt-f/arquivos-projetos-unes/arquivos-necessarios-projetos-unes/logo.png"> </td>
+```
+
+Após isso é basicmente usando a mesma norção de programação dentro das tags do HTML.
