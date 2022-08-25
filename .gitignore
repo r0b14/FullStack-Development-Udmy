@@ -1,0 +1,4 @@
+
+
+# ignora quaisquer diretórios chamados "metadata"
+__MACOSX/
